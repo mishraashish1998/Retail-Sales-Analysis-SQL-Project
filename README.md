@@ -26,6 +26,8 @@ This project demonstrates SQL skills typically used by data analysts to explore,
   ```sql
   CREATE DATABASE sql_project_p2;
   
+## Step 2: Create the retail_sales Table
+```sql
 CREATE TABLE retail_sales (
     transactions_id INT PRIMARY KEY,
     sale_date DATE,	
@@ -39,3 +41,4 @@ CREATE TABLE retail_sales (
     cogs FLOAT,
     total_sale FLOAT
 );
+
